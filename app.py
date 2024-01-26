@@ -67,7 +67,7 @@ def function(event):
 
 def wake_up_render():
     while True:
-        url = "https://gadtransit.onrender.com"
+        url = "https://gadtrainsit.onrender.com"
         res = requests.get(url)
         if res.status_code == 200:
             print("awaking!!")
