@@ -877,7 +877,7 @@ def carouselPage():
     return contents
 
 
-def multilePage():
+def multilePage(a, at, b, bt, c, ct):
     contents = {
         "type": "carousel",
         "contents": [
@@ -889,30 +889,7 @@ def multilePage():
                     "contents": [
                         {
                             "type": "image",
-                            "url": "https://i.imgur.com/7yu4VGK.jpg",
-                            "size": "full",
-                            "aspectMode": "cover",
-                            "gravity": "top",
-                            "aspectRatio": "8.5:20"
-                        }
-                    ],
-                    "paddingAll": "0px",
-                    "action": {
-                        "type": "uri",
-                        "label": "廠辦線",
-                        "uri": "https://i.imgur.com/7yu4VGK.jpg"
-                    }
-                }
-            },
-            {
-                "type": "bubble",
-                "body": {
-                    "type": "box",
-                    "layout": "vertical",
-                    "contents": [
-                        {
-                            "type": "image",
-                            "url": "https://i.imgur.com/7yu4VGK.jpg",
+                            "url": a,
                             "size": "full",
                             "aspectMode": "cover",
                             "gravity": "top",
@@ -922,8 +899,8 @@ def multilePage():
                     "paddingAll": "0px",
                     "action": {
                         "type": "message",
-                        "label": "廠辦線",
-                        "text": "廠辦線G2"
+                        "label": at,
+                        "text": at
                     }
                 }
             },
@@ -935,16 +912,203 @@ def multilePage():
                     "contents": [
                         {
                             "type": "image",
-                            "url": "https://i.imgur.com/7yu4VGK.jpg",
+                            "url": b,
                             "size": "full",
                             "aspectMode": "cover",
                             "gravity": "top",
                             "aspectRatio": "8.5:20"
                         }
                     ],
-                    "paddingAll": "0px"
+                    "paddingAll": "0px",
+                    "action": {
+                        "type": "message",
+                        "label": bt,
+                        "text": bt
+                    }
+                }
+            },
+            {
+                "type": "bubble",
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": c,
+                            "size": "full",
+                            "aspectMode": "cover",
+                            "gravity": "top",
+                            "aspectRatio": "8.5:20"
+                        }
+                    ],
+                    "paddingAll": "0px",
+                    "action": {
+                        "type": "message",
+                        "label": ct,
+                        "text": ct
+                    }
                 }
             }
         ]
+    }
+    return contents
+
+
+def multilePage2(a, at, b, bt):
+    contents = {
+        "type": "carousel",
+        "contents": [
+            {
+                "type": "bubble",
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": a,
+                            "size": "full",
+                            "aspectMode": "cover",
+                            "gravity": "top",
+                            "aspectRatio": "8.5:20"
+                        }
+                    ],
+                    "paddingAll": "0px",
+                    "action": {
+                        "type": "message",
+                        "label": at,
+                        "text": at
+                    }
+                }
+            },
+            {
+                "type": "bubble",
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": b,
+                            "size": "full",
+                            "aspectMode": "cover",
+                            "gravity": "top",
+                            "aspectRatio": "8.5:20"
+                        }
+                    ],
+                    "paddingAll": "0px",
+                    "action": {
+                        "type": "message",
+                        "label": bt,
+                        "text": bt
+                    }
+                }
+            }
+        ]
+    }
+    return contents
+
+
+def trainsitPage():
+    contents = {
+        "type": "bubble",
+        "hero": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "text",
+                    "text": "交通資訊",
+                    "size": "xxl",
+                    "weight": "bold",
+                    "align": "center"
+                },
+                {
+                    "type": "separator"
+                }
+            ]
+        },
+        "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": "https://i.imgur.com/hW0jRv7.png",
+                            "action": {
+                                "type": "message",
+                                "label": "廠辦線",
+                                "text": "廠辦線"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": "https://i.imgur.com/ew8bdKj.png",
+                            "action": {
+                                "type": "message",
+                                "label": "長興線",
+                                "text": "長興線"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": "https://i.imgur.com/YYV59EZ.png",
+                            "action": {
+                                "type": "message",
+                                "label": "A15線",
+                                "text": "A15線"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": "https://i.imgur.com/1Uf7Vq4.png",
+                            "action": {
+                                "type": "message",
+                                "label": "T2walk",
+                                "text": "T2walk"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": "https://i.imgur.com/focndfV.png",
+                            "action": {
+                                "type": "message",
+                                "label": "EGASwalk",
+                                "text": "EGASwalk"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     }
     return contents
