@@ -1019,19 +1019,16 @@ def trainsitPage():
             "layout": "vertical",
             "contents": [
                 {
-                    "type": "text",
-                    "text": "交通資訊",
-                    "gravity": "center",
-                    "align": "center",
-                    "margin": "xxl",
-                    "size": "3xl",
-                    "weight": "bold",
-                    "offsetBottom": "lg"
+                    "type": "image",
+                    "url": "https://i.imgur.com/r03IsG3.png",
+                    "size": "full",
+                    "aspectMode": "cover"
                 },
                 {
                     "type": "separator"
                 }
-            ]
+            ],
+            "height": "100px"
         },
         "body": {
             "type": "box",
@@ -1043,7 +1040,7 @@ def trainsitPage():
                     "contents": [
                         {
                             "type": "icon",
-                            "url": "https://i.imgur.com/aZfrjV3.png",
+                            "url": "https://i.imgur.com/ahkcJcq.png",
                             "size": "4xl",
                             "offsetStart": "xxl"
                         },
@@ -1075,7 +1072,7 @@ def trainsitPage():
                     "contents": [
                         {
                             "type": "icon",
-                            "url": "https://i.imgur.com/aZfrjV3.png",
+                            "url": "https://i.imgur.com/yDuhMfq.png",
                             "size": "4xl",
                             "offsetStart": "xxl"
                         },
@@ -1108,7 +1105,7 @@ def trainsitPage():
                     "contents": [
                         {
                             "type": "icon",
-                            "url": "https://i.imgur.com/aZfrjV3.png",
+                            "url": "https://i.imgur.com/7cuHLc7.png",
                             "size": "4xl",
                             "offsetStart": "xxl"
                         },
@@ -1174,7 +1171,7 @@ def trainsitPage():
                     "contents": [
                         {
                             "type": "icon",
-                            "url": "https://i.imgur.com/aZfrjV3.png",
+                            "url": "https://i.imgur.com/0xOfojx.png",
                             "size": "4xl",
                             "offsetStart": "xxl"
                         },
@@ -1200,38 +1197,116 @@ def trainsitPage():
                     },
                     "spacing": "xxl",
                     "margin": "lg"
+                }
+            ]
+        },
+        "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "separator"
+                },
+                {
+                    "type": "text",
+                    "text": "接駁車誤點通報-聯絡電話",
+                    "margin": "lg",
+                    "weight": "bold",
+                    "align": "center",
+                    "size": "xl"
                 },
                 {
                     "type": "box",
                     "layout": "baseline",
                     "contents": [
                         {
-                            "type": "icon",
-                            "url": "https://i.imgur.com/aZfrjV3.png",
-                            "size": "4xl",
-                            "offsetStart": "xxl"
+                            "type": "text",
+                            "text": "工作日(08:30-17:30)",
+                            "weight": "bold",
+                            "size": "lg",
+                            "align": "center"
+                        }
+                    ],
+                    "margin": "lg"
+                },
+                {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "text",
+                                    "text": "請洽總務部：",
+                                    "weight": "bold",
+                                    "size": "md",
+                                    "align": "start"
+                                }
+                            ],
+                            "width": "100px"
                         },
                         {
-                            "type": "text",
-                            "text": "交通資訊",
-                            "size": "xxl",
-                            "weight": "bold",
-                            "color": "#005AB5",
-                            "align": "center",
-                            "gravity": "center",
-                            "decoration": "underline",
-                            "offsetBottom": "xxl",
-                            "margin": "1px"
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "text",
+                                    "text": "03-3916058",
+                                    "align": "start"
+                                }
+                            ]
                         }
                     ],
                     "alignItems": "center",
-                    "justifyContent": "center",
-                    "action": {
-                        "type": "message",
-                        "label": "聯絡資訊",
-                        "text": "聯絡資訊"
-                    },
-                    "spacing": "xxl",
+                    "margin": "lg"
+                },
+                {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "其餘時間",
+                            "weight": "bold",
+                            "size": "lg",
+                            "align": "center"
+                        }
+                    ],
+                    "margin": "lg"
+                },
+                {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "text",
+                                    "text": "請洽OCC：",
+                                    "weight": "bold",
+                                    "size": "md",
+                                    "align": "start"
+                                }
+                            ],
+                            "width": "90px"
+                        },
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "text",
+                                    "text": "03-3916126~6128",
+                                    "align": "start"
+                                }
+                            ]
+                        }
+                    ],
+                    "alignItems": "center",
                     "margin": "lg"
                 }
             ]
