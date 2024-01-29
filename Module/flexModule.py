@@ -1036,6 +1036,8 @@ def trainsitPage():
                 {
                     "type": "box",
                     "layout": "vertical",
+                    "size": "full",
+                    "aspectMode": "fit",
                     "contents": [
                         {
                             "type": "image",
@@ -1051,6 +1053,8 @@ def trainsitPage():
                 {
                     "type": "box",
                     "layout": "vertical",
+                    "size": "full",
+                    "aspectMode": "fit",
                     "contents": [
                         {
                             "type": "image",
@@ -1066,6 +1070,8 @@ def trainsitPage():
                 {
                     "type": "box",
                     "layout": "vertical",
+                    "size": "full",
+                    "aspectMode": "fit",
                     "contents": [
                         {
                             "type": "image",
@@ -1081,6 +1087,8 @@ def trainsitPage():
                 {
                     "type": "box",
                     "layout": "vertical",
+                    "size": "full",
+                    "aspectMode": "fit",
                     "contents": [
                         {
                             "type": "image",
@@ -1096,6 +1104,8 @@ def trainsitPage():
                 {
                     "type": "box",
                     "layout": "vertical",
+                    "size": "full",
+                    "aspectMode": "fit",
                     "contents": [
                         {
                             "type": "image",
@@ -1111,6 +1121,8 @@ def trainsitPage():
                 {
                     "type": "box",
                     "layout": "vertical",
+                    "size": "full",
+                    "aspectMode": "fit",
                     "contents": [
                         {
                             "type": "image",
