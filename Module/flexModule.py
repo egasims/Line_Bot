@@ -1236,7 +1236,7 @@ def trainsitPage():
                             "align": "center"
                         }
                     ],
-                    "margin": "xl"
+                    "margin": "xxl"
                 },
                 {
                     "type": "box",
@@ -1248,22 +1248,8 @@ def trainsitPage():
                             "contents": [
                                 {
                                     "type": "text",
-                                    "text": "請洽總務部：",
-                                    "weight": "bold",
-                                    "size": "sm",
-                                    "align": "start"
-                                }
-                            ],
-                            "width": "90px"
-                        },
-                        {
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [
-                                {
-                                    "type": "text",
-                                    "text": "03-3916058",
-                                    "align": "start",
+                                    "text": "請洽總務部：03-3916058",
+                                    "align": "center",
                                     "size": "md",
                                     "action": {
                                         "type": "message",
@@ -1290,7 +1276,7 @@ def trainsitPage():
                             "align": "center"
                         }
                     ],
-                    "margin": "xl"
+                    "margin": "xxl"
                 },
                 {
                     "type": "box",
@@ -1302,22 +1288,8 @@ def trainsitPage():
                             "contents": [
                                 {
                                     "type": "text",
-                                    "text": "請洽OCC：",
-                                    "weight": "bold",
-                                    "size": "sm",
-                                    "align": "start"
-                                }
-                            ],
-                            "width": "80px"
-                        },
-                        {
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [
-                                {
-                                    "type": "text",
-                                    "text": "03-3916126~6128",
-                                    "align": "start",
+                                    "text": "請洽OCC：03-3916126~6128",
+                                    "align": "center",
                                     "size": "md",
                                     "action": {
                                         "type": "message",
