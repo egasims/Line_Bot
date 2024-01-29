@@ -1147,7 +1147,7 @@ def trainsitPage():
                     "contents": [
                         {
                             "type": "icon",
-                            "url": "https://i.imgur.com/aZfrjV3.png",
+                            "url": "https://i.imgur.com/Lxu9u7L.png",
                             "size": "4xl",
                             "offsetStart": "lg"
                         },
