@@ -1039,7 +1039,7 @@ def trainsitPage():
                     "contents": [
                         {
                             "type": "image",
-                            "url": "https://i.imgur.com/hW0jRv7.png",
+                            "url": "https://i.imgur.com/dDMSzQ6.png",
                             "action": {
                                 "type": "message",
                                 "label": "廠辦線",
@@ -1054,7 +1054,7 @@ def trainsitPage():
                     "contents": [
                         {
                             "type": "image",
-                            "url": "https://i.imgur.com/ew8bdKj.png",
+                            "url": "https://i.imgur.com/QlOZhk6.png",
                             "action": {
                                 "type": "message",
                                 "label": "長興線",
@@ -1069,7 +1069,7 @@ def trainsitPage():
                     "contents": [
                         {
                             "type": "image",
-                            "url": "https://i.imgur.com/YYV59EZ.png",
+                            "url": "https://i.imgur.com/QYsUYbu.png",
                             "action": {
                                 "type": "message",
                                 "label": "A15線",
@@ -1084,7 +1084,7 @@ def trainsitPage():
                     "contents": [
                         {
                             "type": "image",
-                            "url": "https://i.imgur.com/1Uf7Vq4.png",
+                            "url": "https://i.imgur.com/BEJjAYD.png",
                             "action": {
                                 "type": "message",
                                 "label": "T2walk",
@@ -1099,11 +1099,26 @@ def trainsitPage():
                     "contents": [
                         {
                             "type": "image",
-                            "url": "https://i.imgur.com/focndfV.png",
+                            "url": "https://i.imgur.com/EM45FUY.png",
                             "action": {
                                 "type": "message",
                                 "label": "EGASwalk",
                                 "text": "EGASwalk"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": "https://i.imgur.com/x55ClOo.png",
+                            "action": {
+                                "type": "message",
+                                "label": "聯絡資訊",
+                                "text": "聯絡資訊"
                             }
                         }
                     ]
