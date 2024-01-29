@@ -1043,7 +1043,7 @@ def trainsitPage():
                         {
                             "type": "icon",
                             "url": "https://i.imgur.com/aZfrjV3.png",
-                            "size": "5xl",
+                            "size": "4xl",
                             "offsetStart": "xxl"
                         },
                         {
@@ -1054,7 +1054,9 @@ def trainsitPage():
                             "color": "#00A600",
                             "align": "start",
                             "gravity": "center",
-                            "decoration": "underline"
+                            "decoration": "underline",
+                            "offsetBottom": "lg",
+                            "margin": "50px"
                         }
                     ],
                     "alignItems": "center",
@@ -1067,16 +1069,13 @@ def trainsitPage():
                     "spacing": "xxl"
                 },
                 {
-                    "type": "separator"
-                },
-                {
                     "type": "box",
                     "layout": "baseline",
                     "contents": [
                         {
                             "type": "icon",
                             "url": "https://i.imgur.com/aZfrjV3.png",
-                            "size": "5xl",
+                            "size": "4xl",
                             "offsetStart": "xxl"
                         },
                         {
@@ -1087,7 +1086,9 @@ def trainsitPage():
                             "color": "#EAC100",
                             "gravity": "center",
                             "align": "start",
-                            "decoration": "underline"
+                            "decoration": "underline",
+                            "offsetBottom": "lg",
+                            "margin": "50px"
                         }
                     ],
                     "alignItems": "center",
@@ -1097,10 +1098,8 @@ def trainsitPage():
                         "label": "長興線",
                         "text": "長興線"
                     },
-                    "spacing": "xxl"
-                },
-                {
-                    "type": "separator"
+                    "spacing": "xxl",
+                    "margin": "lg"
                 },
                 {
                     "type": "box",
@@ -1109,7 +1108,7 @@ def trainsitPage():
                         {
                             "type": "icon",
                             "url": "https://i.imgur.com/aZfrjV3.png",
-                            "size": "5xl",
+                            "size": "4xl",
                             "offsetStart": "xxl"
                         },
                         {
@@ -1120,7 +1119,9 @@ def trainsitPage():
                             "color": "#46A3FF",
                             "align": "start",
                             "gravity": "center",
-                            "decoration": "underline"
+                            "decoration": "underline",
+                            "offsetBottom": "lg",
+                            "margin": "50px"
                         }
                     ],
                     "alignItems": "center",
@@ -1130,10 +1131,8 @@ def trainsitPage():
                         "label": "A15線",
                         "text": "A15線"
                     },
-                    "spacing": "xxl"
-                },
-                {
-                    "type": "separator"
+                    "spacing": "xxl",
+                    "margin": "lg"
                 },
                 {
                     "type": "box",
@@ -1142,7 +1141,7 @@ def trainsitPage():
                         {
                             "type": "icon",
                             "url": "https://i.imgur.com/aZfrjV3.png",
-                            "size": "5xl",
+                            "size": "4xl",
                             "offsetStart": "xxl"
                         },
                         {
@@ -1153,7 +1152,9 @@ def trainsitPage():
                             "color": "#9F4D95",
                             "gravity": "center",
                             "align": "start",
-                            "decoration": "underline"
+                            "decoration": "underline",
+                            "offsetBottom": "lg",
+                            "margin": "50px"
                         }
                     ],
                     "alignItems": "center",
@@ -1163,10 +1164,8 @@ def trainsitPage():
                         "label": "T2walk",
                         "text": "T2walk"
                     },
-                    "spacing": "xxl"
-                },
-                {
-                    "type": "separator"
+                    "spacing": "xxl",
+                    "margin": "lg"
                 },
                 {
                     "type": "box",
@@ -1175,7 +1174,7 @@ def trainsitPage():
                         {
                             "type": "icon",
                             "url": "https://i.imgur.com/aZfrjV3.png",
-                            "size": "5xl",
+                            "size": "4xl",
                             "offsetStart": "xxl"
                         },
                         {
@@ -1186,7 +1185,9 @@ def trainsitPage():
                             "color": "#A5A552",
                             "gravity": "center",
                             "align": "start",
-                            "decoration": "underline"
+                            "decoration": "underline",
+                            "offsetBottom": "lg",
+                            "margin": "50px"
                         }
                     ],
                     "alignItems": "center",
@@ -1196,10 +1197,8 @@ def trainsitPage():
                         "label": "EGASwalk",
                         "text": "EGASwalk"
                     },
-                    "spacing": "xxl"
-                },
-                {
-                    "type": "separator"
+                    "spacing": "xxl",
+                    "margin": "lg"
                 },
                 {
                     "type": "box",
@@ -1208,7 +1207,7 @@ def trainsitPage():
                         {
                             "type": "icon",
                             "url": "https://i.imgur.com/aZfrjV3.png",
-                            "size": "5xl",
+                            "size": "4xl",
                             "offsetStart": "xxl"
                         },
                         {
@@ -1219,7 +1218,9 @@ def trainsitPage():
                             "color": "#005AB5",
                             "align": "start",
                             "gravity": "center",
-                            "decoration": "underline"
+                            "decoration": "underline",
+                            "offsetBottom": "lg",
+                            "margin": "50px"
                         }
                     ],
                     "alignItems": "center",
@@ -1229,7 +1230,8 @@ def trainsitPage():
                         "label": "聯絡資訊",
                         "text": "聯絡資訊"
                     },
-                    "spacing": "xxl"
+                    "spacing": "xxl",
+                    "margin": "lg"
                 }
             ]
         }
