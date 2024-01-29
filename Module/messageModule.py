@@ -39,7 +39,9 @@ mesDic = dict({"交通資訊": return_flex("交通資訊", trainsitPage()),
                "A15線去程": return_img("https://i.imgur.com/HDwDhvC.jpg", "https://i.imgur.com/HDwDhvC.jpg"),
                "A15線回程": return_img("https://i.imgur.com/byBAbBm.jpg", "https://i.imgur.com/byBAbBm.jpg"),
                "T2walk": return_img("https://i.imgur.com/uSfw5fO.jpg", "https://i.imgur.com/uSfw5fO.jpg"),
-               "EGASwalk": return_img("https://i.imgur.com/zeyrBUj.jpg", "https://i.imgur.com/zeyrBUj.jpg")})
+               "EGASwalk": return_img("https://i.imgur.com/zeyrBUj.jpg", "https://i.imgur.com/zeyrBUj.jpg"),
+               "03-3916058": return_text("03-3916058"),
+               "03-3916126": return_text("03-3916126")})
 
 
 def chk_mes(ukey):
