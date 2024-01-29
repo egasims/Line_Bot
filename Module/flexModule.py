@@ -1025,7 +1025,8 @@ def trainsitPage():
                     "align": "center",
                     "margin": "xxl",
                     "size": "3xl",
-                    "weight": "bold"
+                    "weight": "bold",
+                    "offsetBottom": "lg"
                 },
                 {
                     "type": "separator"
@@ -1055,7 +1056,7 @@ def trainsitPage():
                             "align": "center",
                             "gravity": "center",
                             "decoration": "underline",
-                            "offsetBottom": "lg",
+                            "offsetBottom": "xxl",
                             "margin": "1px"
                         }
                     ],
@@ -1087,7 +1088,7 @@ def trainsitPage():
                             "gravity": "center",
                             "align": "center",
                             "decoration": "underline",
-                            "offsetBottom": "lg",
+                            "offsetBottom": "xxl",
                             "margin": "1px"
                         }
                     ],
@@ -1120,7 +1121,7 @@ def trainsitPage():
                             "align": "center",
                             "gravity": "center",
                             "decoration": "underline",
-                            "offsetBottom": "lg",
+                            "offsetBottom": "xxl",
                             "margin": "1px"
                         }
                     ],
@@ -1153,7 +1154,7 @@ def trainsitPage():
                             "gravity": "center",
                             "align": "center",
                             "decoration": "underline",
-                            "offsetBottom": "lg",
+                            "offsetBottom": "xxl",
                             "margin": "1px"
                         }
                     ],
@@ -1186,7 +1187,7 @@ def trainsitPage():
                             "gravity": "center",
                             "align": "center",
                             "decoration": "underline",
-                            "offsetBottom": "lg",
+                            "offsetBottom": "xxl",
                             "margin": "1px"
                         }
                     ],
@@ -1219,7 +1220,7 @@ def trainsitPage():
                             "align": "center",
                             "gravity": "center",
                             "decoration": "underline",
-                            "offsetBottom": "lg",
+                            "offsetBottom": "xxl",
                             "margin": "1px"
                         }
                     ],
