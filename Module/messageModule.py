@@ -48,4 +48,4 @@ def chk_mes(ukey):
     if ukey in mesDic:
         return mesDic[ukey]
     else:
-        return return_text("功能開發中!!")
+        return return_text("本系統僅供查詢，無回覆功能; 若有問題請洽總務部!!")
