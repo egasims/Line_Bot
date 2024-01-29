@@ -1049,14 +1049,14 @@ def trainsitPage():
                         {
                             "type": "text",
                             "text": "廠辦線",
-                            "size": "3xl",
+                            "size": "xxl",
                             "weight": "bold",
                             "color": "#00A600",
-                            "align": "start",
+                            "align": "center",
                             "gravity": "center",
                             "decoration": "underline",
                             "offsetBottom": "lg",
-                            "margin": "50px"
+                            "margin": "1px"
                         }
                     ],
                     "alignItems": "center",
@@ -1081,14 +1081,14 @@ def trainsitPage():
                         {
                             "type": "text",
                             "text": "長興線",
-                            "size": "3xl",
+                            "size": "xxl",
                             "weight": "bold",
                             "color": "#EAC100",
                             "gravity": "center",
-                            "align": "start",
+                            "align": "center",
                             "decoration": "underline",
                             "offsetBottom": "lg",
-                            "margin": "50px"
+                            "margin": "1px"
                         }
                     ],
                     "alignItems": "center",
@@ -1114,14 +1114,14 @@ def trainsitPage():
                         {
                             "type": "text",
                             "text": "A15線",
-                            "size": "3xl",
+                            "size": "xxl",
                             "weight": "bold",
                             "color": "#46A3FF",
-                            "align": "start",
+                            "align": "center",
                             "gravity": "center",
                             "decoration": "underline",
                             "offsetBottom": "lg",
-                            "margin": "50px"
+                            "margin": "1px"
                         }
                     ],
                     "alignItems": "center",
@@ -1151,10 +1151,10 @@ def trainsitPage():
                             "weight": "bold",
                             "color": "#9F4D95",
                             "gravity": "center",
-                            "align": "start",
+                            "align": "center",
                             "decoration": "underline",
                             "offsetBottom": "lg",
-                            "margin": "50px"
+                            "margin": "1px"
                         }
                     ],
                     "alignItems": "center",
@@ -1184,10 +1184,10 @@ def trainsitPage():
                             "weight": "bold",
                             "color": "#A5A552",
                             "gravity": "center",
-                            "align": "start",
+                            "align": "center",
                             "decoration": "underline",
                             "offsetBottom": "lg",
-                            "margin": "50px"
+                            "margin": "1px"
                         }
                     ],
                     "alignItems": "center",
@@ -1213,14 +1213,14 @@ def trainsitPage():
                         {
                             "type": "text",
                             "text": "交通資訊",
-                            "size": "3xl",
+                            "size": "xxl",
                             "weight": "bold",
                             "color": "#005AB5",
-                            "align": "start",
+                            "align": "center",
                             "gravity": "center",
                             "decoration": "underline",
                             "offsetBottom": "lg",
-                            "margin": "50px"
+                            "margin": "1px"
                         }
                     ],
                     "alignItems": "center",
