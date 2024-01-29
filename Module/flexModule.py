@@ -1255,7 +1255,7 @@ def trainsitPage():
                                     "type": "text",
                                     "text": "03-3916058",
                                     "align": "start",
-                                    "size": "sm"
+                                    "size": "md"
                                 }
                             ]
                         }
@@ -1303,7 +1303,7 @@ def trainsitPage():
                                     "type": "text",
                                     "text": "03-3916126~6128",
                                     "align": "start",
-                                    "size": "sm"
+                                    "size": "md"
                                 }
                             ]
                         }
