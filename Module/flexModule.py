@@ -1178,7 +1178,7 @@ def trainsitPage():
                         {
                             "type": "text",
                             "text": "EGAS to A14a",
-                            "size": "xl",
+                            "size": "xxl",
                             "weight": "bold",
                             "color": "#A5A552",
                             "gravity": "center",
@@ -1213,7 +1213,7 @@ def trainsitPage():
                     "margin": "lg",
                     "weight": "bold",
                     "align": "center",
-                    "size": "xl"
+                    "size": "lg"
                 },
                 {
                     "type": "box",
@@ -1223,11 +1223,11 @@ def trainsitPage():
                             "type": "text",
                             "text": "工作日(08:30-17:30)",
                             "weight": "bold",
-                            "size": "lg",
+                            "size": "md",
                             "align": "center"
                         }
                     ],
-                    "margin": "lg"
+                    "margin": "xl"
                 },
                 {
                     "type": "box",
@@ -1241,11 +1241,11 @@ def trainsitPage():
                                     "type": "text",
                                     "text": "請洽總務部：",
                                     "weight": "bold",
-                                    "size": "md",
+                                    "size": "sm",
                                     "align": "start"
                                 }
                             ],
-                            "width": "100px"
+                            "width": "90px"
                         },
                         {
                             "type": "box",
@@ -1254,13 +1254,14 @@ def trainsitPage():
                                 {
                                     "type": "text",
                                     "text": "03-3916058",
-                                    "align": "start"
+                                    "align": "start",
+                                    "size": "sm"
                                 }
                             ]
                         }
                     ],
                     "alignItems": "center",
-                    "margin": "lg"
+                    "margin": "xl"
                 },
                 {
                     "type": "box",
@@ -1270,11 +1271,11 @@ def trainsitPage():
                             "type": "text",
                             "text": "其餘時間",
                             "weight": "bold",
-                            "size": "lg",
+                            "size": "md",
                             "align": "center"
                         }
                     ],
-                    "margin": "lg"
+                    "margin": "xl"
                 },
                 {
                     "type": "box",
@@ -1288,11 +1289,11 @@ def trainsitPage():
                                     "type": "text",
                                     "text": "請洽OCC：",
                                     "weight": "bold",
-                                    "size": "md",
+                                    "size": "sm",
                                     "align": "start"
                                 }
                             ],
-                            "width": "90px"
+                            "width": "80px"
                         },
                         {
                             "type": "box",
@@ -1301,12 +1302,19 @@ def trainsitPage():
                                 {
                                     "type": "text",
                                     "text": "03-3916126~6128",
-                                    "align": "start"
+                                    "align": "start",
+                                    "size": "sm"
                                 }
                             ]
                         }
                     ],
                     "alignItems": "center",
+                    "margin": "xl"
+                },
+                {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
                     "margin": "lg"
                 }
             ]
