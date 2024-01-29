@@ -1013,6 +1013,7 @@ def multilePage2(a, at, b, bt):
 def trainsitPage():
     contents = {
         "type": "bubble",
+        "size": "mega",
         "hero": {
             "type": "box",
             "layout": "vertical",
@@ -1020,9 +1021,11 @@ def trainsitPage():
                 {
                     "type": "text",
                     "text": "交通資訊",
-                    "size": "xxl",
-                    "weight": "bold",
-                    "align": "center"
+                    "gravity": "center",
+                    "align": "center",
+                    "margin": "xxl",
+                    "size": "3xl",
+                    "weight": "bold"
                 },
                 {
                     "type": "separator"
@@ -1035,93 +1038,198 @@ def trainsitPage():
             "contents": [
                 {
                     "type": "box",
-                    "layout": "vertical",
+                    "layout": "baseline",
                     "contents": [
                         {
-                            "type": "image",
-                            "url": "https://i.imgur.com/dDMSzQ6.png",
-                            "action": {
-                                "type": "message",
-                                "label": "廠辦線",
-                                "text": "廠辦線"
-                            }
+                            "type": "icon",
+                            "url": "https://i.imgur.com/aZfrjV3.png",
+                            "size": "5xl",
+                            "offsetStart": "xxl"
+                        },
+                        {
+                            "type": "text",
+                            "text": "廠辦線",
+                            "size": "3xl",
+                            "weight": "bold",
+                            "color": "#00A600",
+                            "align": "start",
+                            "gravity": "center",
+                            "decoration": "underline"
                         }
-                    ]
+                    ],
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "action": {
+                        "type": "message",
+                        "label": "廠辦線",
+                        "text": "廠辦線"
+                    },
+                    "spacing": "xxl"
+                },
+                {
+                    "type": "separator"
                 },
                 {
                     "type": "box",
-                    "layout": "vertical",
+                    "layout": "baseline",
                     "contents": [
                         {
-                            "type": "image",
-                            "url": "https://i.imgur.com/QlOZhk6.png",
-                            "action": {
-                                "type": "message",
-                                "label": "長興線",
-                                "text": "長興線"
-                            }
+                            "type": "icon",
+                            "url": "https://i.imgur.com/aZfrjV3.png",
+                            "size": "5xl",
+                            "offsetStart": "xxl"
+                        },
+                        {
+                            "type": "text",
+                            "text": "長興線",
+                            "size": "3xl",
+                            "weight": "bold",
+                            "color": "#EAC100",
+                            "gravity": "center",
+                            "align": "start",
+                            "decoration": "underline"
                         }
-                    ]
+                    ],
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "action": {
+                        "type": "message",
+                        "label": "長興線",
+                        "text": "長興線"
+                    },
+                    "spacing": "xxl"
+                },
+                {
+                    "type": "separator"
                 },
                 {
                     "type": "box",
-                    "layout": "vertical",
+                    "layout": "baseline",
                     "contents": [
                         {
-                            "type": "image",
-                            "url": "https://i.imgur.com/QYsUYbu.png",
-                            "action": {
-                                "type": "message",
-                                "label": "A15線",
-                                "text": "A15線"
-                            }
+                            "type": "icon",
+                            "url": "https://i.imgur.com/aZfrjV3.png",
+                            "size": "5xl",
+                            "offsetStart": "xxl"
+                        },
+                        {
+                            "type": "text",
+                            "text": "A15線",
+                            "size": "3xl",
+                            "weight": "bold",
+                            "color": "#46A3FF",
+                            "align": "start",
+                            "gravity": "center",
+                            "decoration": "underline"
                         }
-                    ]
+                    ],
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "action": {
+                        "type": "message",
+                        "label": "A15線",
+                        "text": "A15線"
+                    },
+                    "spacing": "xxl"
+                },
+                {
+                    "type": "separator"
                 },
                 {
                     "type": "box",
-                    "layout": "vertical",
+                    "layout": "baseline",
                     "contents": [
                         {
-                            "type": "image",
-                            "url": "https://i.imgur.com/BEJjAYD.png",
-                            "action": {
-                                "type": "message",
-                                "label": "T2walk",
-                                "text": "T2walk"
-                            }
+                            "type": "icon",
+                            "url": "https://i.imgur.com/aZfrjV3.png",
+                            "size": "5xl",
+                            "offsetStart": "xxl"
+                        },
+                        {
+                            "type": "text",
+                            "text": "T2 to A13",
+                            "size": "xxl",
+                            "weight": "bold",
+                            "color": "#9F4D95",
+                            "gravity": "center",
+                            "align": "start",
+                            "decoration": "underline"
                         }
-                    ]
+                    ],
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "action": {
+                        "type": "message",
+                        "label": "T2walk",
+                        "text": "T2walk"
+                    },
+                    "spacing": "xxl"
+                },
+                {
+                    "type": "separator"
                 },
                 {
                     "type": "box",
-                    "layout": "vertical",
+                    "layout": "baseline",
                     "contents": [
                         {
-                            "type": "image",
-                            "url": "https://i.imgur.com/EM45FUY.png",
-                            "action": {
-                                "type": "message",
-                                "label": "EGASwalk",
-                                "text": "EGASwalk"
-                            }
+                            "type": "icon",
+                            "url": "https://i.imgur.com/aZfrjV3.png",
+                            "size": "5xl",
+                            "offsetStart": "xxl"
+                        },
+                        {
+                            "type": "text",
+                            "text": "EGAS to A14a",
+                            "size": "xl",
+                            "weight": "bold",
+                            "color": "#A5A552",
+                            "gravity": "center",
+                            "align": "start",
+                            "decoration": "underline"
                         }
-                    ]
+                    ],
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "action": {
+                        "type": "message",
+                        "label": "EGASwalk",
+                        "text": "EGASwalk"
+                    },
+                    "spacing": "xxl"
+                },
+                {
+                    "type": "separator"
                 },
                 {
                     "type": "box",
-                    "layout": "vertical",
+                    "layout": "baseline",
                     "contents": [
                         {
-                            "type": "image",
-                            "url": "https://i.imgur.com/x55ClOo.png",
-                            "action": {
-                                "type": "message",
-                                "label": "聯絡資訊",
-                                "text": "聯絡資訊"
-                            }
+                            "type": "icon",
+                            "url": "https://i.imgur.com/aZfrjV3.png",
+                            "size": "5xl",
+                            "offsetStart": "xxl"
+                        },
+                        {
+                            "type": "text",
+                            "text": "交通資訊",
+                            "size": "3xl",
+                            "weight": "bold",
+                            "color": "#005AB5",
+                            "align": "start",
+                            "gravity": "center",
+                            "decoration": "underline"
                         }
-                    ]
+                    ],
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "action": {
+                        "type": "message",
+                        "label": "聯絡資訊",
+                        "text": "聯絡資訊"
+                    },
+                    "spacing": "xxl"
                 }
             ]
         }
