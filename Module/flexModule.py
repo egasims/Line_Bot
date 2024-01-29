@@ -1020,7 +1020,7 @@ def trainsitPage():
             "contents": [
                 {
                     "type": "image",
-                    "url": "https://i.imgur.com/r03IsG3.png",
+                    "url": "https://i.imgur.com/VmMkV9G.png",
                     "size": "full",
                     "aspectMode": "cover"
                 },
