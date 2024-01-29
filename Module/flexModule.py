@@ -326,8 +326,12 @@ def AtoB(title, a, b, c, d):
                     "type": "text",
                     "text": title,
                     "weight": "bold",
-                    "size": "xl",
+                    "size": "xxl",
                     "align": "center"
+                },
+                {
+                    "type": "separator",
+                    "margin": "xl"
                 }
             ]
         },
@@ -340,7 +344,7 @@ def AtoB(title, a, b, c, d):
                     "type": "text",
                     "text": a,
                     "weight": "bold",
-                    "size": "xxl",
+                    "size": "xl",
                     "align": "center",
                     "action": {
                         "type": "message",
@@ -351,7 +355,7 @@ def AtoB(title, a, b, c, d):
                 {
                     "type": "text",
                     "text": c,
-                    "size": "xxl",
+                    "size": "xl",
                     "weight": "bold",
                     "align": "center",
                     "margin": "xxl",
