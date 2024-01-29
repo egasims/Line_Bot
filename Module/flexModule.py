@@ -339,7 +339,7 @@ def AtoB(title, a, b, c, d):
                 {
                     "type": "button",
                     "style": "link",
-                    "height": "sm",
+                    "height": "lg",
                     "action": {
                         "type": "message",
                         "label": a,
@@ -349,7 +349,7 @@ def AtoB(title, a, b, c, d):
                 {
                     "type": "button",
                     "style": "link",
-                    "height": "sm",
+                    "height": "lg",
                     "action": {
                         "type": "message",
                         "label": c,
@@ -1012,312 +1012,324 @@ def multilePage2(a, at, b, bt):
 
 def trainsitPage():
     contents = {
-        "type": "bubble",
-        "size": "mega",
-        "hero": {
+  "type": "bubble",
+  "size": "mega",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://i.imgur.com/gwi2hnz.png",
+        "size": "full",
+        "aspectMode": "cover"
+      },
+      {
+        "type": "separator"
+      }
+    ],
+    "height": "100px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "icon",
+            "url": "https://i.imgur.com/ahkcJcq.png",
+            "size": "4xl",
+            "offsetStart": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "廠辦線",
+            "size": "xxl",
+            "weight": "bold",
+            "color": "#00A600",
+            "align": "center",
+            "gravity": "center",
+            "decoration": "underline",
+            "offsetBottom": "xxl",
+            "margin": "1px"
+          }
+        ],
+        "alignItems": "center",
+        "justifyContent": "center",
+        "action": {
+          "type": "message",
+          "label": "廠辦線",
+          "text": "廠辦線"
+        },
+        "spacing": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "icon",
+            "url": "https://i.imgur.com/yDuhMfq.png",
+            "size": "4xl",
+            "offsetStart": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "長興線",
+            "size": "xxl",
+            "weight": "bold",
+            "color": "#EAC100",
+            "gravity": "center",
+            "align": "center",
+            "decoration": "underline",
+            "offsetBottom": "xxl",
+            "margin": "1px"
+          }
+        ],
+        "alignItems": "center",
+        "justifyContent": "center",
+        "action": {
+          "type": "message",
+          "label": "長興線",
+          "text": "長興線"
+        },
+        "spacing": "xxl",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "icon",
+            "url": "https://i.imgur.com/7cuHLc7.png",
+            "size": "4xl",
+            "offsetStart": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "A15線",
+            "size": "xxl",
+            "weight": "bold",
+            "color": "#46A3FF",
+            "align": "center",
+            "gravity": "center",
+            "decoration": "underline",
+            "offsetBottom": "xxl",
+            "margin": "1px"
+          }
+        ],
+        "alignItems": "center",
+        "justifyContent": "center",
+        "action": {
+          "type": "message",
+          "label": "A15線",
+          "text": "A15線"
+        },
+        "spacing": "xxl",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "icon",
+            "url": "https://i.imgur.com/aZfrjV3.png",
+            "size": "4xl",
+            "offsetStart": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "T2 to A13",
+            "size": "xxl",
+            "weight": "bold",
+            "color": "#9F4D95",
+            "gravity": "center",
+            "align": "center",
+            "decoration": "underline",
+            "offsetBottom": "xxl",
+            "margin": "1px"
+          }
+        ],
+        "alignItems": "center",
+        "justifyContent": "center",
+        "action": {
+          "type": "message",
+          "label": "T2walk",
+          "text": "T2walk"
+        },
+        "spacing": "xxl",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "icon",
+            "url": "https://i.imgur.com/0xOfojx.png",
+            "size": "4xl",
+            "offsetStart": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "EGAS to A14a",
+            "size": "xxl",
+            "weight": "bold",
+            "color": "#A5A552",
+            "gravity": "center",
+            "align": "center",
+            "decoration": "underline",
+            "offsetBottom": "xxl",
+            "margin": "1px"
+          }
+        ],
+        "alignItems": "center",
+        "justifyContent": "center",
+        "action": {
+          "type": "message",
+          "label": "EGASwalk",
+          "text": "EGASwalk"
+        },
+        "spacing": "xxl",
+        "margin": "lg"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "separator"
+      },
+      {
+        "type": "text",
+        "text": "接駁車誤點通報-聯絡電話",
+        "margin": "lg",
+        "weight": "bold",
+        "align": "center",
+        "size": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "工作日(08:30-17:30)",
+            "weight": "bold",
+            "size": "md",
+            "align": "center"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
             "type": "box",
             "layout": "vertical",
             "contents": [
-                {
-                    "type": "image",
-                    "url": "https://i.imgur.com/gwi2hnz.png",
-                    "size": "full",
-                    "aspectMode": "cover"
-                },
-                {
-                    "type": "separator"
-                }
+              {
+                "type": "text",
+                "text": "請洽總務部：",
+                "weight": "bold",
+                "size": "sm",
+                "align": "start"
+              }
             ],
-            "height": "100px"
-        },
-        "body": {
+            "width": "90px"
+          },
+          {
             "type": "box",
             "layout": "vertical",
             "contents": [
-                {
-                    "type": "box",
-                    "layout": "baseline",
-                    "contents": [
-                        {
-                            "type": "icon",
-                            "url": "https://i.imgur.com/ahkcJcq.png",
-                            "size": "4xl",
-                            "offsetStart": "xxl"
-                        },
-                        {
-                            "type": "text",
-                            "text": "廠辦線",
-                            "size": "xxl",
-                            "weight": "bold",
-                            "color": "#00A600",
-                            "align": "center",
-                            "gravity": "center",
-                            "decoration": "underline",
-                            "offsetBottom": "xxl",
-                            "margin": "1px"
-                        }
-                    ],
-                    "alignItems": "center",
-                    "justifyContent": "center",
-                    "action": {
-                        "type": "message",
-                        "label": "廠辦線",
-                        "text": "廠辦線"
-                    },
-                    "spacing": "xxl"
+              {
+                "type": "text",
+                "text": "03-3916058",
+                "align": "start",
+                "size": "md",
+                "action": {
+                  "type": "message",
+                  "label": "連絡電話",
+                  "text": "03-3916058"
                 },
-                {
-                    "type": "box",
-                    "layout": "baseline",
-                    "contents": [
-                        {
-                            "type": "icon",
-                            "url": "https://i.imgur.com/yDuhMfq.png",
-                            "size": "4xl",
-                            "offsetStart": "xxl"
-                        },
-                        {
-                            "type": "text",
-                            "text": "長興線",
-                            "size": "xxl",
-                            "weight": "bold",
-                            "color": "#EAC100",
-                            "gravity": "center",
-                            "align": "center",
-                            "decoration": "underline",
-                            "offsetBottom": "xxl",
-                            "margin": "1px"
-                        }
-                    ],
-                    "alignItems": "center",
-                    "justifyContent": "center",
-                    "action": {
-                        "type": "message",
-                        "label": "長興線",
-                        "text": "長興線"
-                    },
-                    "spacing": "xxl",
-                    "margin": "lg"
-                },
-                {
-                    "type": "box",
-                    "layout": "baseline",
-                    "contents": [
-                        {
-                            "type": "icon",
-                            "url": "https://i.imgur.com/7cuHLc7.png",
-                            "size": "4xl",
-                            "offsetStart": "xxl"
-                        },
-                        {
-                            "type": "text",
-                            "text": "A15線",
-                            "size": "xxl",
-                            "weight": "bold",
-                            "color": "#46A3FF",
-                            "align": "center",
-                            "gravity": "center",
-                            "decoration": "underline",
-                            "offsetBottom": "xxl",
-                            "margin": "1px"
-                        }
-                    ],
-                    "alignItems": "center",
-                    "justifyContent": "center",
-                    "action": {
-                        "type": "message",
-                        "label": "A15線",
-                        "text": "A15線"
-                    },
-                    "spacing": "xxl",
-                    "margin": "lg"
-                },
-                {
-                    "type": "box",
-                    "layout": "baseline",
-                    "contents": [
-                        {
-                            "type": "icon",
-                            "url": "https://i.imgur.com/aZfrjV3.png",
-                            "size": "4xl",
-                            "offsetStart": "xxl"
-                        },
-                        {
-                            "type": "text",
-                            "text": "T2 to A13",
-                            "size": "xxl",
-                            "weight": "bold",
-                            "color": "#9F4D95",
-                            "gravity": "center",
-                            "align": "center",
-                            "decoration": "underline",
-                            "offsetBottom": "xxl",
-                            "margin": "1px"
-                        }
-                    ],
-                    "alignItems": "center",
-                    "justifyContent": "center",
-                    "action": {
-                        "type": "message",
-                        "label": "T2walk",
-                        "text": "T2walk"
-                    },
-                    "spacing": "xxl",
-                    "margin": "lg"
-                },
-                {
-                    "type": "box",
-                    "layout": "baseline",
-                    "contents": [
-                        {
-                            "type": "icon",
-                            "url": "https://i.imgur.com/0xOfojx.png",
-                            "size": "4xl",
-                            "offsetStart": "xxl"
-                        },
-                        {
-                            "type": "text",
-                            "text": "EGAS to A14a",
-                            "size": "xxl",
-                            "weight": "bold",
-                            "color": "#A5A552",
-                            "gravity": "center",
-                            "align": "center",
-                            "decoration": "underline",
-                            "offsetBottom": "xxl",
-                            "margin": "1px"
-                        }
-                    ],
-                    "alignItems": "center",
-                    "justifyContent": "center",
-                    "action": {
-                        "type": "message",
-                        "label": "EGASwalk",
-                        "text": "EGASwalk"
-                    },
-                    "spacing": "xxl",
-                    "margin": "lg"
-                }
+                "decoration": "underline"
+              }
             ]
-        },
-        "footer": {
+          }
+        ],
+        "alignItems": "center",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "其餘時間",
+            "weight": "bold",
+            "size": "md",
+            "align": "center"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
             "type": "box",
             "layout": "vertical",
             "contents": [
-                {
-                    "type": "separator"
+              {
+                "type": "text",
+                "text": "請洽OCC：",
+                "weight": "bold",
+                "size": "sm",
+                "align": "start"
+              }
+            ],
+            "width": "80px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "03-3916126~6128",
+                "align": "start",
+                "size": "md",
+                "action": {
+                  "type": "message",
+                  "label": "連絡電話",
+                  "text": "03-3916126"
                 },
-                {
-                    "type": "text",
-                    "text": "接駁車誤點通報-聯絡電話",
-                    "margin": "lg",
-                    "weight": "bold",
-                    "align": "center",
-                    "size": "lg"
-                },
-                {
-                    "type": "box",
-                    "layout": "baseline",
-                    "contents": [
-                        {
-                            "type": "text",
-                            "text": "工作日(08:30-17:30)",
-                            "weight": "bold",
-                            "size": "md",
-                            "align": "center"
-                        }
-                    ],
-                    "margin": "xl"
-                },
-                {
-                    "type": "box",
-                    "layout": "horizontal",
-                    "contents": [
-                        {
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [
-                                {
-                                    "type": "text",
-                                    "text": "請洽總務部：",
-                                    "weight": "bold",
-                                    "size": "sm",
-                                    "align": "start"
-                                }
-                            ],
-                            "width": "90px"
-                        },
-                        {
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [
-                                {
-                                    "type": "text",
-                                    "text": "03-3916058",
-                                    "align": "start",
-                                    "size": "md"
-                                }
-                            ]
-                        }
-                    ],
-                    "alignItems": "center",
-                    "margin": "xl"
-                },
-                {
-                    "type": "box",
-                    "layout": "baseline",
-                    "contents": [
-                        {
-                            "type": "text",
-                            "text": "其餘時間",
-                            "weight": "bold",
-                            "size": "md",
-                            "align": "center"
-                        }
-                    ],
-                    "margin": "xl"
-                },
-                {
-                    "type": "box",
-                    "layout": "horizontal",
-                    "contents": [
-                        {
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [
-                                {
-                                    "type": "text",
-                                    "text": "請洽OCC：",
-                                    "weight": "bold",
-                                    "size": "sm",
-                                    "align": "start"
-                                }
-                            ],
-                            "width": "80px"
-                        },
-                        {
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [
-                                {
-                                    "type": "text",
-                                    "text": "03-3916126~6128",
-                                    "align": "start",
-                                    "size": "md"
-                                }
-                            ]
-                        }
-                    ],
-                    "alignItems": "center",
-                    "margin": "xl"
-                },
-                {
-                    "type": "box",
-                    "layout": "vertical",
-                    "contents": [],
-                    "margin": "lg"
-                }
+                "decoration": "underline"
+              }
             ]
-        }
-    }
+          }
+        ],
+        "alignItems": "center",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "lg"
+      }
+    ]
+  }
+}
     return contents
