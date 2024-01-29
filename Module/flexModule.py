@@ -1051,7 +1051,7 @@ def trainsitPage():
                             "type": "icon",
                             "url": "https://i.imgur.com/ahkcJcq.png",
                             "size": "4xl",
-                            "offsetStart": "xxl"
+                            "offsetStart": "lg"
                         },
                         {
                             "type": "text",
@@ -1083,7 +1083,7 @@ def trainsitPage():
                             "type": "icon",
                             "url": "https://i.imgur.com/yDuhMfq.png",
                             "size": "4xl",
-                            "offsetStart": "xxl"
+                            "offsetStart": "lg"
                         },
                         {
                             "type": "text",
@@ -1116,7 +1116,7 @@ def trainsitPage():
                             "type": "icon",
                             "url": "https://i.imgur.com/7cuHLc7.png",
                             "size": "4xl",
-                            "offsetStart": "xxl"
+                            "offsetStart": "lg"
                         },
                         {
                             "type": "text",
@@ -1149,7 +1149,7 @@ def trainsitPage():
                             "type": "icon",
                             "url": "https://i.imgur.com/aZfrjV3.png",
                             "size": "4xl",
-                            "offsetStart": "xxl"
+                            "offsetStart": "lg"
                         },
                         {
                             "type": "text",
@@ -1182,7 +1182,7 @@ def trainsitPage():
                             "type": "icon",
                             "url": "https://i.imgur.com/0xOfojx.png",
                             "size": "4xl",
-                            "offsetStart": "xxl"
+                            "offsetStart": "lg"
                         },
                         {
                             "type": "text",
