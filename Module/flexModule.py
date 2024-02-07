@@ -336,7 +336,7 @@ def AtoB(title, a, b):
                                     "contents": [
                                         {
                                             "type": "icon",
-                                            "url": "https://i.imgur.com/jpcsNZ9.png",
+                                            "url": "https://i.imgur.com/ahkcJcq.png",
                                             "size": "65px"
                                         }
                                     ],
@@ -549,7 +549,7 @@ def AtoB(title, a, b):
                                     "contents": [
                                         {
                                             "type": "icon",
-                                            "url": "https://i.imgur.com/jpcsNZ9.png",
+                                            "url": "https://i.imgur.com/ahkcJcq.png",
                                             "size": "65px"
                                         }
                                     ],
