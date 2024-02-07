@@ -1,6 +1,5 @@
 from linebot.models import (TextSendMessage, ImageSendMessage, FlexSendMessage)
-from Module.flexModule import transit, AtoB, gigaPage, positionPage, carouselPage, multilePage, multilePage2, \
-    trainsitPage
+from Module.flexModule import AtoB, multilePage, multilePage2, trainsitPage, three_page, four_page
 
 
 def return_flex(alt_text, contents):
@@ -16,20 +15,37 @@ def return_text(text):
 
 
 mesDic = dict({"交通資訊": return_flex("交通資訊", trainsitPage()),
-               "廠辦線": return_flex("廠辦線", AtoB("廠辦線", "【去程】EGAS to T2", "EGAS to T2",
-                                                    "【回程】T2 to EGAS", "T2 to EGAS")),
-               "EGAS to T2": return_flex("EGAS to T2", multilePage("https://i.imgur.com/vmnJenZ.jpg", "廠辦G1",
-                                                                   "https://i.imgur.com/ga31aK5.jpg", "廠辦G2",
-                                                                   "https://i.imgur.com/c87o95S.jpg", "廠辦G3")),
-               "T2 to EGAS": return_flex("T2 to EGAS", multilePage("https://i.imgur.com/yy6pf3C.jpg", "廠辦G4",
-                                                                   "https://i.imgur.com/iCr63se.jpg", "廠辦G5",
-                                                                   "https://i.imgur.com/hQm4bJR.jpg", "廠辦G6")),
+               "廠辦線": return_flex("廠辦線", AtoB("廠辦線", "EGAS", "T2")),
+               "EGAS to T2": return_flex("EGAS to T2", three_page("https://i.imgur.com/vmnJenZ.jpg", "廠辦G1",
+                                                                  "https://i.imgur.com/ga31aK5.jpg", "廠辦G2",
+                                                                  "https://i.imgur.com/c87o95S.jpg", "廠辦G3")),
+               "T2 to EGAS": return_flex("EGAS to T2", three_page("https://i.imgur.com/yy6pf3C.jpg", "廠辦G4",
+                                                                  "https://i.imgur.com/iCr63se.jpg", "廠辦G5",
+                                                                  "https://i.imgur.com/hQm4bJR.jpg", "廠辦G6")),
                "廠辦G1": return_img("https://i.imgur.com/vmnJenZ.jpg", "https://i.imgur.com/vmnJenZ.jpg"),
                "廠辦G2": return_img("https://i.imgur.com/ga31aK5.jpg", "https://i.imgur.com/ga31aK5.jpg"),
                "廠辦G3": return_img("https://i.imgur.com/c87o95S.jpg", "https://i.imgur.com/c87o95S.jpg"),
                "廠辦G4": return_img("https://i.imgur.com/yy6pf3C.jpg", "https://i.imgur.com/yy6pf3C.jpg"),
                "廠辦G5": return_img("https://i.imgur.com/iCr63se.jpg", "https://i.imgur.com/iCr63se.jpg"),
                "廠辦G6": return_img("https://i.imgur.com/hQm4bJR.jpg", "https://i.imgur.com/hQm4bJR.jpg"),
+               "EGAS to T2(新)": return_flex("EGAS to T2(新)",
+                                             four_page("https://i.imgur.com/HNMsYsL.jpg", "廠辦G1(新)",
+                                                       "https://i.imgur.com/AQ4JjJQ.jpg", "廠辦G2(新)",
+                                                       "https://i.imgur.com/fkif50U.jpg", "廠辦G3(新)",
+                                                       "https://i.imgur.com/hbDO7pl.jpg", "廠辦G4(新)")),
+               "T2 to EGAS(新)": return_flex("T2 to EGAS(新)",
+                                             four_page("https://i.imgur.com/vcVEDNs.jpg", "廠辦G5(新)",
+                                                       "https://i.imgur.com/5rifrtL.jpg", "廠辦G6(新)",
+                                                       "https://i.imgur.com/635SCW5.jpg", "廠辦G7(新)",
+                                                       "https://i.imgur.com/eWTKvs0.jpg", "廠辦G8(新)")),
+               "廠辦G1(新)": return_img("https://i.imgur.com/HNMsYsL.jpg", "https://i.imgur.com/HNMsYsL.jpg"),
+               "廠辦G2(新)": return_img("https://i.imgur.com/AQ4JjJQ.jpg", "https://i.imgur.com/AQ4JjJQ.jpg"),
+               "廠辦G3(新)": return_img("https://i.imgur.com/fkif50U.jpg", "https://i.imgur.com/fkif50U.jpg"),
+               "廠辦G4(新)": return_img("https://i.imgur.com/hbDO7pl.jpg", "https://i.imgur.com/hbDO7pl.jpg"),
+               "廠辦G5(新)": return_img("https://i.imgur.com/vcVEDNs.jpg", "https://i.imgur.com/vcVEDNs.jpg"),
+               "廠辦G6(新)": return_img("https://i.imgur.com/5rifrtL.jpg", "https://i.imgur.com/5rifrtL.jpg"),
+               "廠辦G7(新)": return_img("https://i.imgur.com/635SCW5.jpg", "https://i.imgur.com/635SCW5.jpg"),
+               "廠辦G8(新)": return_img("https://i.imgur.com/eWTKvs0.jpg", "https://i.imgur.com/eWTKvs0.jpg"),
                "長興線": return_flex("長興線", multilePage2("https://i.imgur.com/HsCcU0D.jpg", "每日行駛",
                                                             "https://i.imgur.com/kOrJYYI.jpg", "工作日行駛")),
                "每日行駛": return_img("https://i.imgur.com/HsCcU0D.jpg", "https://i.imgur.com/HsCcU0D.jpg"),

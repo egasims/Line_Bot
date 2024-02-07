@@ -315,59 +315,438 @@ def transit(sp, ep):
     return contents
 
 
-def AtoB(title, a, b, c, d):
+def AtoB(title, a, b):
     contents = {
-        "type": "bubble",
-        "body": {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-                {
-                    "type": "text",
-                    "text": title,
-                    "weight": "bold",
-                    "size": "xxl",
-                    "align": "center"
+        "type": "carousel",
+        "contents": [
+            {
+                "type": "bubble",
+                "size": "mega",
+                "header": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "box",
+                            "layout": "horizontal",
+                            "contents": [
+                                {
+                                    "type": "box",
+                                    "layout": "baseline",
+                                    "contents": [
+                                        {
+                                            "type": "icon",
+                                            "url": "https://i.imgur.com/jpcsNZ9.png",
+                                            "size": "65px"
+                                        }
+                                    ],
+                                    "width": "100px"
+                                },
+                                {
+                                    "type": "box",
+                                    "layout": "vertical",
+                                    "contents": [
+                                        {
+                                            "type": "text",
+                                            "text": title,
+                                            "size": "3xl",
+                                            "weight": "bold",
+                                            "align": "center",
+                                            "color": "#019858",
+                                            "decoration": "underline"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "(2024.02.15前)",
+                                            "size": "xl",
+                                            "weight": "bold",
+                                            "align": "center",
+                                            "margin": "md"
+                                        }
+                                    ],
+                                    "offsetEnd": "xl"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "separator",
+                            "margin": "xl"
+                        }
+                    ]
                 },
-                {
-                    "type": "separator",
-                    "margin": "xl"
+                "hero": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "【去程】",
+                                                    "weight": "bold",
+                                                    "align": "end",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "100px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": a,
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "70px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "→",
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "50px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": b,
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "70px"
+                                        }
+                                    ],
+                                    "alignItems": "center",
+                                    "action": {
+                                        "type": "message",
+                                        "label": a + " to " + b,
+                                        "text": a + " to " + b
+                                    },
+                                    "margin": "xl"
+                                },
+                                {
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "【回程】",
+                                                    "weight": "bold",
+                                                    "align": "end",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "100px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": b,
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "70px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "→",
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "50px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": a,
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "70px"
+                                        }
+                                    ],
+                                    "alignItems": "center",
+                                    "margin": "25px",
+                                    "action": {
+                                        "type": "message",
+                                        "label": b + " to " + a,
+                                        "text": b + " to " + a
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [],
+                            "margin": "30px"
+                        }
+                    ],
+                    "margin": "150px"
                 }
-            ]
-        },
-        "footer": {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
-            "contents": [
-                {
-                    "type": "text",
-                    "text": a,
-                    "weight": "bold",
-                    "size": "xl",
-                    "align": "center",
-                    "action": {
-                        "type": "message",
-                        "label": a,
-                        "text": b
-                    }
+            },
+            {
+                "type": "bubble",
+                "size": "mega",
+                "header": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "box",
+                            "layout": "horizontal",
+                            "contents": [
+                                {
+                                    "type": "box",
+                                    "layout": "baseline",
+                                    "contents": [
+                                        {
+                                            "type": "icon",
+                                            "url": "https://i.imgur.com/jpcsNZ9.png",
+                                            "size": "65px"
+                                        }
+                                    ],
+                                    "width": "100px"
+                                },
+                                {
+                                    "type": "box",
+                                    "layout": "vertical",
+                                    "contents": [
+                                        {
+                                            "type": "text",
+                                            "text": title,
+                                            "size": "3xl",
+                                            "weight": "bold",
+                                            "align": "center",
+                                            "color": "#019858",
+                                            "decoration": "underline"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "(2024.02.15後)",
+                                            "size": "xl",
+                                            "weight": "bold",
+                                            "align": "center",
+                                            "color": "#FF0000",
+                                            "margin": "md"
+                                        }
+                                    ],
+                                    "offsetEnd": "xl"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "separator",
+                            "margin": "xl"
+                        }
+                    ]
                 },
-                {
-                    "type": "text",
-                    "text": c,
-                    "size": "xl",
-                    "weight": "bold",
-                    "align": "center",
-                    "margin": "xxl",
-                    "action": {
-                        "type": "message",
-                        "label": c,
-                        "text": d
-                    }
+                "hero": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "【去程】",
+                                                    "weight": "bold",
+                                                    "align": "end",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "100px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": a,
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "70px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "→",
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "50px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": b,
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "70px"
+                                        }
+                                    ],
+                                    "alignItems": "center",
+                                    "action": {
+                                        "type": "message",
+                                        "label": a + " to " + b + "(新)",
+                                        "text": a + " to " + b + "(新)"
+                                    },
+                                    "margin": "xl"
+                                },
+                                {
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "【回程】",
+                                                    "weight": "bold",
+                                                    "align": "end",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "100px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": b,
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "70px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "→",
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "50px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": a,
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl"
+                                                }
+                                            ],
+                                            "width": "70px"
+                                        }
+                                    ],
+                                    "alignItems": "center",
+                                    "margin": "25px",
+                                    "action": {
+                                        "type": "message",
+                                        "label": b + " to " + a + "(新)",
+                                        "text": b + " to " + a + "(新)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [],
+                            "margin": "30px"
+                        }
+                    ],
+                    "margin": "150px"
                 }
-            ],
-            "flex": 0
-        }
+            }
+        ]
     }
     return contents
 
@@ -886,7 +1265,7 @@ def carouselPage():
     return contents
 
 
-def multilePage(a, at, b, bt, c, ct):
+def multilePage(a, at, b, bt, c, ct, d, dt):
     contents = {
         "type": "carousel",
         "contents": [
@@ -956,6 +1335,29 @@ def multilePage(a, at, b, bt, c, ct):
                         "type": "message",
                         "label": ct,
                         "text": ct
+                    }
+                }
+            },
+            {
+                "type": "bubble",
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": d,
+                            "size": "full",
+                            "aspectMode": "cover",
+                            "gravity": "top",
+                            "aspectRatio": "8.5:20"
+                        }
+                    ],
+                    "paddingAll": "0px",
+                    "action": {
+                        "type": "message",
+                        "label": dt,
+                        "text": dt
                     }
                 }
             }
@@ -1316,4 +1718,180 @@ def trainsitPage():
     return contents
 
 
+def three_page(a, at, b, bt, c, ct):
+    contents = {
+        "type": "carousel",
+        "contents": [
+            {
+                "type": "bubble",
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": a,
+                            "size": "full",
+                            "aspectMode": "cover",
+                            "gravity": "top",
+                            "aspectRatio": "8.5:20"
+                        }
+                    ],
+                    "paddingAll": "0px",
+                    "action": {
+                        "type": "message",
+                        "label": at,
+                        "text": at
+                    }
+                }
+            },
+            {
+                "type": "bubble",
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": b,
+                            "size": "full",
+                            "aspectMode": "cover",
+                            "gravity": "top",
+                            "aspectRatio": "8.5:20"
+                        }
+                    ],
+                    "paddingAll": "0px",
+                    "action": {
+                        "type": "message",
+                        "label": bt,
+                        "text": bt
+                    }
+                }
+            },
+            {
+                "type": "bubble",
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": c,
+                            "size": "full",
+                            "aspectMode": "cover",
+                            "gravity": "top",
+                            "aspectRatio": "8.5:20"
+                        }
+                    ],
+                    "paddingAll": "0px",
+                    "action": {
+                        "type": "message",
+                        "label": ct,
+                        "text": ct
+                    }
+                }
+            }
+        ]
+    }
+    return contents
 
+
+def four_page(a, at, b, bt, c, ct, d, dt):
+    contents = {
+        "type": "carousel",
+        "contents": [
+            {
+                "type": "bubble",
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": a,
+                            "size": "full",
+                            "aspectMode": "cover",
+                            "gravity": "top",
+                            "aspectRatio": "8.5:20"
+                        }
+                    ],
+                    "paddingAll": "0px",
+                    "action": {
+                        "type": "message",
+                        "label": at,
+                        "text": at
+                    }
+                }
+            },
+            {
+                "type": "bubble",
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": b,
+                            "size": "full",
+                            "aspectMode": "cover",
+                            "gravity": "top",
+                            "aspectRatio": "8.5:20"
+                        }
+                    ],
+                    "paddingAll": "0px",
+                    "action": {
+                        "type": "message",
+                        "label": bt,
+                        "text": bt
+                    }
+                }
+            },
+            {
+                "type": "bubble",
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": c,
+                            "size": "full",
+                            "aspectMode": "cover",
+                            "gravity": "top",
+                            "aspectRatio": "8.5:20"
+                        }
+                    ],
+                    "paddingAll": "0px",
+                    "action": {
+                        "type": "message",
+                        "label": ct,
+                        "text": ct
+                    }
+                }
+            },
+            {
+                "type": "bubble",
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "image",
+                            "url": d,
+                            "size": "full",
+                            "aspectMode": "cover",
+                            "gravity": "top",
+                            "aspectRatio": "8.5:20"
+                        }
+                    ],
+                    "paddingAll": "0px",
+                    "action": {
+                        "type": "message",
+                        "label": dt,
+                        "text": dt
+                    }
+                }
+            }
+        ]
+    }
+    return contents
