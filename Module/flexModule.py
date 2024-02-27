@@ -1342,7 +1342,7 @@ def trainsitPage():
                         },
                         {
                             "type": "text",
-                            "text": "T2 to A13",
+                            "text": "T2 <-> A13",
                             "size": "xxl",
                             "weight": "bold",
                             "color": "#9F4D95",
@@ -1375,7 +1375,7 @@ def trainsitPage():
                         },
                         {
                             "type": "text",
-                            "text": "EGAS to A14a",
+                            "text": "EGAS <-> A14a",
                             "size": "xxl",
                             "weight": "bold",
                             "color": "#A5A552",
