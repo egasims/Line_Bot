@@ -1,5 +1,5 @@
 from linebot.models import (TextSendMessage, ImageSendMessage, FlexSendMessage)
-from Module.flexModule import AtoB, multilePage, multilePage2, trainsitPage, three_page, four_page
+from Module.flexModule import AtoB, multilePage2, trainsitPage, four_page, video_page
 
 
 def return_flex(alt_text, contents):
@@ -16,18 +16,6 @@ def return_text(text):
 
 mesDic = dict({"交通資訊": return_flex("交通資訊", trainsitPage()),
                "廠辦線": return_flex("廠辦線", AtoB("廠辦線", "EGAS", "T2")),
-               "EGAS to T2": return_flex("EGAS to T2", three_page("https://i.imgur.com/vmnJenZ.jpg", "廠辦G1",
-                                                                  "https://i.imgur.com/ga31aK5.jpg", "廠辦G2",
-                                                                  "https://i.imgur.com/c87o95S.jpg", "廠辦G3")),
-               "T2 to EGAS": return_flex("EGAS to T2", three_page("https://i.imgur.com/yy6pf3C.jpg", "廠辦G4",
-                                                                  "https://i.imgur.com/iCr63se.jpg", "廠辦G5",
-                                                                  "https://i.imgur.com/hQm4bJR.jpg", "廠辦G6")),
-               "廠辦G1": return_img("https://i.imgur.com/vmnJenZ.jpg", "https://i.imgur.com/vmnJenZ.jpg"),
-               "廠辦G2": return_img("https://i.imgur.com/ga31aK5.jpg", "https://i.imgur.com/ga31aK5.jpg"),
-               "廠辦G3": return_img("https://i.imgur.com/c87o95S.jpg", "https://i.imgur.com/c87o95S.jpg"),
-               "廠辦G4": return_img("https://i.imgur.com/yy6pf3C.jpg", "https://i.imgur.com/yy6pf3C.jpg"),
-               "廠辦G5": return_img("https://i.imgur.com/iCr63se.jpg", "https://i.imgur.com/iCr63se.jpg"),
-               "廠辦G6": return_img("https://i.imgur.com/hQm4bJR.jpg", "https://i.imgur.com/hQm4bJR.jpg"),
                "EGAS to T2(新)": return_flex("EGAS to T2(新)",
                                              four_page("https://i.imgur.com/nYUuBw1.jpg", "廠辦G1(新)",
                                                        "https://i.imgur.com/78qfQot.jpg", "廠辦G2(新)",
@@ -54,6 +42,14 @@ mesDic = dict({"交通資訊": return_flex("交通資訊", trainsitPage()),
                                                           "https://i.imgur.com/byBAbBm.jpg", "A15線回程")),
                "A15線去程": return_img("https://i.imgur.com/HDwDhvC.jpg", "https://i.imgur.com/HDwDhvC.jpg"),
                "A15線回程": return_img("https://i.imgur.com/byBAbBm.jpg", "https://i.imgur.com/byBAbBm.jpg"),
+               "EGASflex": return_flex("EGAS to A14a 交通路線",
+                                       video_page("https://i.imgur.com/0xOfojx.png", "EGAS <-> A14a", "#a5a552",
+                                                  "EGASWalk",
+                                                  "https://youtu.be/i_LqwGNfAmM")),
+               "T2flex": return_flex("T2 to A13 交通路線",
+                                     video_page("https://i.imgur.com/Lxu9u7L.png", "T2 <-> A13", "#9f4d95",
+                                                "T2Walk",
+                                                "https://youtu.be/r088JL-zitA")),
                "T2walk": return_img("https://i.imgur.com/Omr4t9w.jpg", "https://i.imgur.com/Omr4t9w.jpg"),
                "EGASwalk": return_img("https://i.imgur.com/zeyrBUj.jpg", "https://i.imgur.com/zeyrBUj.jpg"),
                "03-3916058": return_text("03-3916058"),

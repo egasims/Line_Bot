@@ -1357,8 +1357,8 @@ def trainsitPage():
                     "justifyContent": "center",
                     "action": {
                         "type": "message",
-                        "label": "T2walk",
-                        "text": "T2walk"
+                        "label": "T2flex",
+                        "text": "T2flex"
                     },
                     "spacing": "xxl",
                     "margin": "lg"
@@ -1390,8 +1390,8 @@ def trainsitPage():
                     "justifyContent": "center",
                     "action": {
                         "type": "message",
-                        "label": "EGASwalk",
-                        "text": "EGASwalk"
+                        "label": "EGASflex",
+                        "text": "EGASflex"
                     },
                     "spacing": "xxl",
                     "margin": "lg"
@@ -1676,6 +1676,189 @@ def four_page(a, at, b, bt, c, ct, d, dt):
                         "type": "message",
                         "label": dt,
                         "text": dt
+                    }
+                }
+            }
+        ]
+    }
+    return contents
+
+
+def video_page(titleimg, title, titlecolor, flat, video):
+    contents = {
+        "type": "carousel",
+        "contents": [
+            {
+                "type": "bubble",
+                "size": "mega",
+                "header": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "box",
+                            "layout": "horizontal",
+                            "contents": [
+                                {
+                                    "type": "box",
+                                    "layout": "baseline",
+                                    "contents": [
+                                        {
+                                            "type": "icon",
+                                            "url": titleimg,
+                                            "size": "70px"
+                                        }
+                                    ],
+                                    "width": "70px"
+                                },
+                                {
+                                    "type": "box",
+                                    "layout": "vertical",
+                                    "contents": [
+                                        {
+                                            "type": "text",
+                                            "text": title,
+                                            "weight": "bold",
+                                            "align": "center",
+                                            "color": titlecolor,
+                                            "decoration": "underline",
+                                            "gravity": "center",
+                                            "size": "27px"
+                                        }
+                                    ],
+                                    "offsetEnd": "xl",
+                                    "alignItems": "center",
+                                    "justifyContent": "center",
+                                    "width": "220px"
+                                }
+                            ],
+                            "maxHeight": "80px"
+                        }
+                    ],
+                    "maxHeight": "100px"
+                },
+                "hero": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [
+                                        {
+                                            "type": "box",
+                                            "layout": "baseline",
+                                            "contents": [
+                                                {
+                                                    "type": "icon",
+                                                    "url": "https://i.imgur.com/BmOoACT.png",
+                                                    "size": "50px"
+                                                }
+                                            ],
+                                            "maxWidth": "80px",
+                                            "justifyContent": "center"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "行走路線平面圖",
+                                                    "weight": "bold",
+                                                    "align": "center",
+                                                    "size": "xl",
+                                                    "decoration": "underline",
+                                                    "action": {
+                                                        "type": "message",
+                                                        "label": "action",
+                                                        "text": flat
+                                                    },
+                                                    "gravity": "center",
+                                                    "margin": "xl",
+                                                    "offsetBottom": "md"
+                                                }
+                                            ],
+                                            "maxWidth": "200px"
+                                        }
+                                    ],
+                                    "alignItems": "center",
+                                    "action": {
+                                        "type": "message",
+                                        "label": "atob",
+                                        "text": "atob"
+                                    },
+                                    "cornerRadius": "50px",
+                                    "offsetTop": "10px",
+                                    "margin": "15px"
+                                },
+                                {
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [
+                                        {
+                                            "type": "box",
+                                            "layout": "baseline",
+                                            "contents": [
+                                                {
+                                                    "type": "icon",
+                                                    "url": "https://i.imgur.com/cYKPlO2.png",
+                                                    "size": "50px"
+                                                }
+                                            ],
+                                            "justifyContent": "center",
+                                            "maxWidth": "80px"
+                                        },
+                                        {
+                                            "type": "box",
+                                            "layout": "vertical",
+                                            "contents": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "行走路線影片",
+                                                    "align": "center",
+                                                    "size": "xl",
+                                                    "weight": "bold",
+                                                    "decoration": "underline",
+                                                    "action": {
+                                                        "type": "uri",
+                                                        "label": "action",
+                                                        "uri": video,
+                                                        "altUri": {
+                                                            "desktop": video
+                                                        }
+                                                    },
+                                                    "gravity": "center",
+                                                    "margin": "xl",
+                                                    "offsetBottom": "md",
+                                                    "color": "#FF5151"
+                                                }
+                                            ],
+                                            "maxWidth": "200px"
+                                        }
+                                    ],
+                                    "alignItems": "center",
+                                    "margin": "20px",
+                                    "action": {
+                                        "type": "message",
+                                        "label": "atob",
+                                        "text": "atob"
+                                    },
+                                    "cornerRadius": "50px",
+                                    "offsetTop": "10px"
+                                }
+                            ],
+                            "height": "160px"
+                        }
+                    ]
+                },
+                "styles": {
+                    "hero": {
+                        "backgroundColor": "#FFF3EE"
                     }
                 }
             }
