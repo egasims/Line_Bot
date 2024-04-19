@@ -70,7 +70,7 @@ def wake_up_render():
         url = "https://gadtrainsit.onrender.com"
         res = requests.get(url)
         if res.status_code == 200:
-            print("awaking!!")
+            res_status = "OK"
         else:
             print("awaking error!!")
         time.sleep(870)
