@@ -357,7 +357,7 @@ def AtoB(title, a, b):
                                         },
                                         {
                                             "type": "text",
-                                            "text": "(2024.02.20後)",
+                                            "text": "(2024.09.01 update)",
                                             "size": "xl",
                                             "weight": "bold",
                                             "align": "center",
