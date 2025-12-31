@@ -357,7 +357,7 @@ def AtoB(title, a, b):
                                         },
                                         {
                                             "type": "text",
-                                            "text": "(2024/12/27更新)",
+                                            "text": "(2026/01/01更新)",
                                             "size": "xl",
                                             "weight": "bold",
                                             "align": "center",
