@@ -16,21 +16,20 @@ def return_img(original_content_url, preview_image_url):
 def return_text(text):
     return TextSendMessage(text=text)
 
-
 # 集中管理圖片連結，方便維護與重複使用
 img_urls = {
-    "廠辦G1(新)": "https://imgur.com/c3J2NXR",
-    "廠辦G2(新)": "https://imgur.com/2aN2XCi",
-    "廠辦G3(新)": "https://imgur.com/bVsSfbR",
-    "廠辦G4(新)": "https://imgur.com/dU4O0EC",
-    "廠辦G5(新)": "https://imgur.com/LEHotVA",
-    "廠辦G6(新)": "https://imgur.com/8ZdgTk1",
-    "廠辦G7(新)": "https://imgur.com/DgPfmrh",
-    "廠辦G8(新)": "https://imgur.com/qNpE9Yi",
-    "每日行駛": "https://imgur.com/LJrZv0E",
-    "工作日行駛": "https://imgur.com/0fAUFd3",
-    "A15線去程": "https://imgur.com/XA2fdpC", #A1
-    "A15線回程": "https://imgur.com/ACpaF3l", #A2
+    "廠辦G1(新)": "https://imgur.com/c3J2NXR.jpg",
+    "廠辦G2(新)": "https://imgur.com/2aN2XCi.jpg",
+    "廠辦G3(新)": "https://imgur.com/bVsSfbR.jpg",
+    "廠辦G4(新)": "https://imgur.com/dU4O0EC.jpg",
+    "廠辦G5(新)": "https://imgur.com/LEHotVA.jpg",
+    "廠辦G6(新)": "https://imgur.com/8ZdgTk1.jpg",
+    "廠辦G7(新)": "https://imgur.com/DgPfmrh.jpg",
+    "廠辦G8(新)": "https://imgur.com/qNpE9Yi.jpg",
+    "每日行駛": "https://imgur.com/LJrZv0E.jpg",
+    "工作日行駛": "https://imgur.com/0fAUFd3.jpg",
+    "A15線去程": "https://imgur.com/XA2fdpC.jpg", #A1
+    "A15線回程": "https://imgur.com/ACpaF3l.jpg", #A2
     "T2walk": "https://i.imgur.com/VclCNxR.jpg",
     "EGASwalk": "https://i.imgur.com/zeyrBUj.jpg",
 }
