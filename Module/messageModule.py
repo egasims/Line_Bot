@@ -28,8 +28,8 @@ img_urls = {
     "廠辦G8(新)": "https://imgur.com/qNpE9Yi.jpg",
     "每日行駛": "https://i.imgur.com/MRQNu3N.jpg",
     "工作日行駛": "https://i.imgur.com/UIRec50.jpg",
-    "A15線去程": "https://i.imgur.com/XbpXNJU.jpg", #A1
-    "A15線回程": "https://i.imgur.com/XbpXNJU.jpg", #A2
+    "A15線去程": "https://i.imgur.com/Yw9XUrh.jpg", #A1
+    "A15線回程": "https://i.imgur.com/Yw9XUrh.jpg", #A2
     "T2walk": "https://i.imgur.com/VclCNxR.jpg",
     "EGASwalk": "https://i.imgur.com/zeyrBUj.jpg",
 }
