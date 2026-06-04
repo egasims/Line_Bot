@@ -26,10 +26,10 @@ img_urls = {
     "廠辦G6(新)": "https://imgur.com/8ZdgTk1.jpg",
     "廠辦G7(新)": "https://imgur.com/DgPfmrh.jpg",
     "廠辦G8(新)": "https://imgur.com/qNpE9Yi.jpg",
-    "每日行駛": "https://imgur.com/LJrZv0E.jpg",
-    "工作日行駛": "https://imgur.com/0fAUFd3.jpg",
-    "A15線去程": "https://imgur.com/XA2fdpC.jpg", #A1
-    "A15線回程": "https://imgur.com/ACpaF3l.jpg", #A2
+    "每日行駛": "https://i.imgur.com/MRQNu3N.jpg",
+    "工作日行駛": "https://i.imgur.com/UIRec50.jpg",
+    "A15線去程": "https://i.imgur.com/XbpXNJU.jpg", #A1
+    "A15線回程": "https://i.imgur.com/XbpXNJU.jpg", #A2
     "T2walk": "https://i.imgur.com/VclCNxR.jpg",
     "EGASwalk": "https://i.imgur.com/zeyrBUj.jpg",
 }
