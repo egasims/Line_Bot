@@ -18,11 +18,11 @@ def return_text(text):
 
 # 集中管理圖片連結，方便維護與重複使用
 img_urls = {
-    "廠辦G1(新)": "https://imgur.com/lVX4NWC.jpg",
+    "廠辦G1(新)": "https://imgur.com/t9ZRhWb.jpg",
     "廠辦G2(新)": "https://imgur.com/GXjtk2H.jpg",
     "廠辦G3(新)": "https://imgur.com/R838MGZ.jpg",
     "廠辦G4(新)": "https://imgur.com/U4Hq846.jpg",
-    "廠辦G5(新)": "https://imgur.com/lVX4NWC.jpg",
+    "廠辦G5(新)": "https://imgur.com/t9ZRhWb.jpg",
     "廠辦G6(新)": "https://imgur.com/GXjtk2H.jpg",
     "廠辦G7(新)": "https://imgur.com/R838MGZ.jpg",
     "廠辦G8(新)": "https://imgur.com/U4Hq846.jpg",
