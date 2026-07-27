@@ -421,7 +421,7 @@ def AtoB(title, a, b):
                                             "contents": [
                                                 {
                                                     "type": "text",
-                                                    "text": "→",
+                                                    "text": "←→",
                                                     "weight": "bold",
                                                     "align": "center",
                                                     "size": "xl"

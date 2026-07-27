@@ -18,7 +18,7 @@ def return_text(text):
 
 # 集中管理圖片連結，方便維護與重複使用
 img_urls = {
-    "廠辦G1(新)": "https://imgur.com/uQo858j.jpg",
+    "廠辦G1(新)": "https://imgur.com/cdagUIN.jpg",
     "廠辦G2(新)": "https://imgur.com/VMGSAqu.jpg",
     "廠辦G3(新)": "https://imgur.com/8Phd04w.jpg",
     "廠辦G4(新)": "https://imgur.com/MKEb0kT.jpg",
