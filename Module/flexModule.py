@@ -393,7 +393,7 @@ def AtoB(title, a, b):
                                             "contents": [
                                                 {
                                                     "type": "text",
-                                                    "text": "【去程】",
+                                                    "text": "【來回】",
                                                     "weight": "bold",
                                                     "align": "end",
                                                     "size": "xl"
@@ -452,75 +452,75 @@ def AtoB(title, a, b):
                                     },
                                     "margin": "xl"
                                 },
-                                {
-                                    "type": "box",
-                                    "layout": "horizontal",
-                                    "contents": [
-                                        {
-                                            "type": "box",
-                                            "layout": "vertical",
-                                            "contents": [
-                                                {
-                                                    "type": "text",
-                                                    "text": "【回程】",
-                                                    "weight": "bold",
-                                                    "align": "end",
-                                                    "size": "xl"
-                                                }
-                                            ],
-                                            "width": "100px"
-                                        },
-                                        {
-                                            "type": "box",
-                                            "layout": "vertical",
-                                            "contents": [
-                                                {
-                                                    "type": "text",
-                                                    "text": b,
-                                                    "weight": "bold",
-                                                    "align": "center",
-                                                    "size": "xl"
-                                                }
-                                            ],
-                                            "width": "70px"
-                                        },
-                                        {
-                                            "type": "box",
-                                            "layout": "vertical",
-                                            "contents": [
-                                                {
-                                                    "type": "text",
-                                                    "text": "→",
-                                                    "weight": "bold",
-                                                    "align": "center",
-                                                    "size": "xl"
-                                                }
-                                            ],
-                                            "width": "50px"
-                                        },
-                                        {
-                                            "type": "box",
-                                            "layout": "vertical",
-                                            "contents": [
-                                                {
-                                                    "type": "text",
-                                                    "text": a,
-                                                    "weight": "bold",
-                                                    "align": "center",
-                                                    "size": "xl"
-                                                }
-                                            ],
-                                            "width": "70px"
-                                        }
-                                    ],
-                                    "alignItems": "center",
-                                    "margin": "25px",
-                                    "action": {
-                                        "type": "message",
-                                        "label": b + " to " + a + "(新)",
-                                        "text": b + " to " + a + "(新)"
-                                    }
-                                }
+                                # {
+                                #     "type": "box",
+                                #     "layout": "horizontal",
+                                #     "contents": [
+                                #         {
+                                #             "type": "box",
+                                #             "layout": "vertical",
+                                #             "contents": [
+                                #                 {
+                                #                     "type": "text",
+                                #                     "text": "【回程】",
+                                #                     "weight": "bold",
+                                #                     "align": "end",
+                                #                     "size": "xl"
+                                #                 }
+                                #             ],
+                                #             "width": "100px"
+                                #         },
+                                #         {
+                                #             "type": "box",
+                                #             "layout": "vertical",
+                                #             "contents": [
+                                #                 {
+                                #                     "type": "text",
+                                #                     "text": b,
+                                #                     "weight": "bold",
+                                #                     "align": "center",
+                                #                     "size": "xl"
+                                #                 }
+                                #             ],
+                                #             "width": "70px"
+                                #         },
+                                #         {
+                                #             "type": "box",
+                                #             "layout": "vertical",
+                                #             "contents": [
+                                #                 {
+                                #                     "type": "text",
+                                #                     "text": "→",
+                                #                     "weight": "bold",
+                                #                     "align": "center",
+                                #                     "size": "xl"
+                                #                 }
+                                #             ],
+                                #             "width": "50px"
+                                #         },
+                                #         {
+                                #             "type": "box",
+                                #             "layout": "vertical",
+                                #             "contents": [
+                                #                 {
+                                #                     "type": "text",
+                                #                     "text": a,
+                                #                     "weight": "bold",
+                                #                     "align": "center",
+                                #                     "size": "xl"
+                                #                 }
+                                #             ],
+                                #             "width": "70px"
+                                #         }
+                                #     ],
+                                #     "alignItems": "center",
+                                #     "margin": "25px",
+                                #     "action": {
+                                #         "type": "message",
+                                #         "label": b + " to " + a + "(新)",
+                                #         "text": b + " to " + a + "(新)"
+                                #     }
+                                # }
                             ]
                         },
                         {
