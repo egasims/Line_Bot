@@ -20,7 +20,7 @@ def return_text(text):
 img_urls = {
     "廠辦G1(新)": "https://imgur.com/OyEf2oo.jpg",
     "廠辦G2(新)": "https://imgur.com/0qRCVxt.jpg",
-    "廠辦G3(新)": "https://imgur.com/a3CIXST.jpg",
+    "廠辦G3(新)": "https://imgur.com/a3ClXST.jpg",
     "廠辦G4(新)": "https://imgur.com/vFi0fWF.jpg",
     #"廠辦G5(新)": "https://imgur.com/OBH1i8b.jpg",
     #"廠辦G6(新)": "https://imgur.com/CjACchA.jpg",
